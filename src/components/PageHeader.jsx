@@ -4,11 +4,10 @@ export default function PageHeader() {
   return (
     <div className={styles.header}>
       <h1>Portland Ramen Guide</h1>
-      <p>An exploration of ramen through the years</p>
       <div className={styles.row}>
-        <a>Home</a>
-        <a>Blog</a>
-        <a>About</a>
+        <a href='/' className={styles.link}>Home</a>
+        <a href='/blog' className={styles.link}>Blog</a>
+        <a href='/about' className={styles.link}>About</a>
       </div>
     </div>
   )
