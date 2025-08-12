@@ -10,7 +10,22 @@
   gap: .5rem;
 }
 
+.card > h3 {
+  font-size: 1.25rem;
+}
 .cardHeader {
   display: flex;
+  font-size: .875rem;
   gap: .5rem;
+  color: #718096;
+}
+
+.review {
+  color: #4A5568;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
