@@ -13,7 +13,7 @@ export default function Home() {
         <div className='grid'>
           {isLoaded ? (
             posts.map((post) => { 
-              return <PostCard post={post} />
+              return <PostCard post={post} key={post.id} />
             })) : <p>Loading...</p>}
         </div>
       </div>
