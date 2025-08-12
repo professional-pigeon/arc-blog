@@ -13,6 +13,17 @@
 .card > h3 {
   font-size: 1.25rem;
 }
+
+.card:hover {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  border-color: #e5e7eb;
+}
+
+.card:hover > h3 {
+  text-decoration: underline;
+}
+
 .cardHeader {
   display: flex;
   font-size: .875rem;

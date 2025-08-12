@@ -4,7 +4,7 @@ import usePosts from "@/hooks/usePosts";
 import PostCard from "@/components/PostCard";
 
 export default function Home() {
-  const { posts, isLoaded } = usePosts()
+  const { posts, isLoaded } = usePosts({ view: 'latest' })
   return (
     <div>
       <PageHero showLink />
