@@ -1,4 +1,4 @@
-import styles from './PostCard.module.css'
+import styles from './PostCard.module.css';
 
 export default function PostCard({ post }) {
   return (
@@ -8,10 +8,10 @@ export default function PostCard({ post }) {
         <p>-</p>
         <p>{post.date}</p>
         <p>-</p>
-        <p>{post.rating}</p>
+        <p className={styles.rating}>&#9733; {post.rating}/5</p>
       </div>
-      <h3><a href='/blog'>{post.title}</a></h3>
-      <p className={styles.review}>{post.review}/5</p>
+      <h3><a href={`/blog/${post.id}`}>{post.title}</a></h3>
+      <p className={styles.review}>{post.review}</p>
     </div>
   );
 };

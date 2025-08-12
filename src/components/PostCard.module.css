@@ -26,6 +26,7 @@
 
 .cardHeader {
   display: flex;
+  align-items: center;
   font-size: .875rem;
   gap: .5rem;
   color: #718096;
@@ -39,4 +40,9 @@
   -webkit-line-clamp: 3;
   line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.rating {
+  color: #ED8936;
+  font-weight: 600;
 }
