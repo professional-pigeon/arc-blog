@@ -1,4 +1,4 @@
-const blogPosts = [
+export const blogPosts = [
   {
     id: 1,
     title: 'Afuri Ramen - Pearl District',
@@ -107,4 +107,4 @@ const blogPosts = [
     review: 'Kukai Ramen in Lake Oswego is an exceptional ramen experience that rivals the best in Portland. Their tonkotsu broth is incredibly rich and complex, with layers of flavor that develop over 18 hours of simmering. The noodles are perfectly cooked with excellent texture and springiness. The chashu is melt-in-your-mouth tender and the ajitama eggs are perfectly marinated with runny centers. The restaurant has an elegant, modern atmosphere with attention to detail in every aspect. Service is impeccable and the staff is passionate about their craft. The quality is consistently outstanding and worth the drive to Lake Oswego.',
     slug: 'kukai-ramen-lake-oswego'
   }
-]
+];

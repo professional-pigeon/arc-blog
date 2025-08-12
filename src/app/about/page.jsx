@@ -1,4 +1,3 @@
-import PageHeader from "@/components/PageHeader";
 import PageHero from "@/components/PageHero";
 
 export default function About() {
@@ -8,4 +7,4 @@ export default function About() {
       <p>about</p>
     </div>
   );
-}
+};
